@@ -1,7 +1,7 @@
-arr = [1, 2, 3]
-
-for i in arr do
-  a = 5      # a is initialized here
+def add_three(number)
+  return number + 3
+  number + 4
 end
 
-puts a  
+returned_value = add_three(4)
+puts returned_value
